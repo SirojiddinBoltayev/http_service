@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:http_service/core/handlers/server_error_interceptor.dart';
-import 'package:http_service/core/handlers/token_interceptor.dart';
+import 'package:http_service/core/http_handlers/token_interceptor.dart';
 import 'package:requests_inspector/requests_inspector.dart';
 
 import 'dio_transform_package.dart';
